@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@import "./fonts.css";
+
+@theme {
+  --font-sans: "Crimson Text", serif;
+  --font-serif: "Cormorant Garamond", serif;
+}
+
+@layer base {
+  :root {
+    --background: #FFF8E7;
+    --foreground: #2C1810;
+    --card: #FFFFFF;
+    --card-foreground: #2C1810;
+    --primary: #B8860B;
+    --primary-foreground: #FFFFFF;
+    --secondary: #8B4513;
+    --secondary-foreground: #FFFFFF;
+    --muted: #F5E6D3;
+    --muted-foreground: #6B5744;
+    --accent: #FFBF00;
+    --accent-foreground: #2C1810;
+    --border: rgba(184, 134, 11, 0.2);
+    
+    --divine-gold: #D4AF37;
+    --warm-amber: #FFBF00;
+    --sacred-cream: #FFF8E7;
+    --holy-brown: #8B4513;
+    
+    --chart-1: #B8860B;
+    --chart-2: #FFBF00;
+    --chart-3: #8B4513;
+    --chart-4: #D4AF37;
+    --chart-5: #CD853F;
+
+    --radius: 0.75rem;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+  }
+}
